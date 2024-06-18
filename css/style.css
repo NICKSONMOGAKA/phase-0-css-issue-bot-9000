@@ -1,23 +1,23 @@
 body {
-  background pink;
+  background: pink;
 }
 
 h1 {
   color: blue;
-  fontsize: 3em; 
+  font-size: 3em; /* corrected property name */
 }
 
 h2 {
   color: green;
-  font-weight: normal
-  font-style: italic;
+  font-weight: normal; /* corrected missing semicolon */
+  font-style: italic; /* corrected property name */
 }
 
 .completed {
-  font-family: 12px;
+  font-size: 12px; /* corrected property name */
 }
 
 #tasks .completed {
-  backgound: #ccc;
-  text-decoration: underline;
+  background: #ccc; /* corrected property name */
+  text-decoration: underline; /* adjusted to match typical CSS conventions */
 }
